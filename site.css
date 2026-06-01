@@ -3480,6 +3480,11 @@ input[type="range"].calc-slider::-moz-range-thumb {
   font-optical-sizing: auto;
   font-size: inherit;
   color: var(--positive);
+}
+/* Bemutatkozás stat számok maradjanak fehérek */
+.stat-szam .szam-ertek,
+.mutato-szam .szam-ertek {
+  color: var(--fg-0);
   letter-spacing: -0.02em;
   line-height: 1;
 }
