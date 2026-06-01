@@ -79,7 +79,7 @@ const SITE = {
   timeline: {
     eyebrow: "A FOLYAMAT",
     title: "Hogyan dolgozunk együtt",
-    lead: "Az első találkozótól a havi kontrollig, egy átlátható, négy lépcsős folyamat, amiben mindig te diktálod a tempót.",
+    lead: "Az első találkozótól a havi kontrollig: egy átlátható, négy lépcsős folyamat, amelyben a legfontosabb a transzparens együttműködés.",
     steps: [
       {
         n: "01",
@@ -99,7 +99,7 @@ const SITE = {
       {
         n: "04",
         title: "Évenkénti felülvizsgálat",
-        text: "A program nem statikus. Évente leülünk, értékeljük az eredményeket, és ha kell, finomhangoljuk a stratégiát az életed változásaihoz.",
+        text: "Mindig negyedévet nézünk előre, nem pedig éveket. A program nem statikus. Negyedévente/évente évfordulós beszélgetéssel értékeljük az eredményeket, és ha kell, finomhangoljuk a stratégiát.",
       },
     ],
   },
@@ -125,7 +125,7 @@ const SITE = {
   contact: {
     eyebrow: "KAPCSOLAT",
     title: "Beszéljünk a terveidről.",
-    lead: "Az első konzultáció díjmentes és kötelezettségmentes. Hívj, írj, vagy hagyj üzenetet, 24 órán belül válaszolok személyesen.",
+    lead: "Díjmentes konzultáció. Hívj, írj, vagy hagyj üzenetet, 24 órán belül válaszolok személyesen.",
     items: [
       { icon: "phone",   lbl: "TELEFON", val: "06 30 266 4050" },
       { icon: "mail",    lbl: "E-MAIL",  val: "imre.balogh.richard@allianztanacsado.hu" },
@@ -134,7 +134,7 @@ const SITE = {
   },
   footer: {
     tagline:
-      "Független pénzügyi tanácsadás. A Bónusz Életprogram unit-linked életbiztosítási termék.",
+      "biztosítási befektetése magas szintű kezelése",
     columns: [
       {
         head: "OLDALAK",

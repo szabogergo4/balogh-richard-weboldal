@@ -1349,7 +1349,7 @@ input[type="range"].calc-slider::-moz-range-thumb {
 /* Total row in breakdown */
 .calc-breakdown .item.total-item { border-top: 1px solid var(--line-1); }
 .calc-breakdown .item.total-item .lbl { color: var(--fg-1); }
-.calc-breakdown .item.total-item .val { color: var(--accent); font-size: 28px; }
+.calc-breakdown .item.total-item .val { color: var(--positive); font-size: 28px; }
 
 /* EUR al-felirat a breakdown sorokban */
 .val-eur {
@@ -3448,7 +3448,7 @@ input[type="range"].calc-slider::-moz-range-thumb {
   font-weight: 500;
   font-optical-sizing: auto;
   font-size: inherit;
-  color: inherit;
+  color: var(--positive);
   letter-spacing: -0.02em;
   line-height: 1;
 }

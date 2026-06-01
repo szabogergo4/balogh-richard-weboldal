@@ -546,11 +546,7 @@ function Calculator() {
 
             <div className="calc-disclaimer">
               <strong>Tájékoztató számítás.</strong><br/>
-              {Math.round(calcRate * 100)}% éves bruttó hozam, 1,19% éves költség,<br/>
-              havi adminisztrációs díj figyelembevételével (990 Ft forintos, 3,3 EUR eurós program esetén).<br/>
-              A tényleges hozam a piaci körülményektől eltérhet.<br/>
-              A bónusz és SZJA visszatérítés a szerződéskötéskor<br/>
-              érvényben lévő jogszabályok szerint érvényesíthető.
+              Vázlatszerű tájékoztatás — *adminisztrációs költség a 13. hónaptól
             </div>
           </div>
 

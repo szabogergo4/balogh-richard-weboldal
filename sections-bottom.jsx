@@ -205,7 +205,7 @@ function Footer() {
           <div className="col brand-col">
             <a className="logo" href="#foooldal">
               <span className="mark">{SITE.brand.monogram}</span>
-              <span>{SITE.brand.name}</span>
+              <span className="logo-fonev">{SITE.brand.name}</span>
             </a>
             <p>{f.tagline}</p>
           </div>
