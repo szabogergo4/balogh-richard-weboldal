@@ -112,8 +112,8 @@ function Hero() {
           <div className="hero-precalc-header">
             <span className="hero-precalc-eyebrow">Ingyenes kalkuláció</span>
             <p className="hero-precalc-lead">
-              Adja meg a tervezett havi összeget és jelenlegi korát —
-              azonnal megmutatjuk, mennyit érhet megtakarítása a futamidő végén.
+              Add meg a tervezett havi összeget és jelenlegi korodat,
+              azonnal megmutatjuk, mennyit érhet megtakarításod a futamidő végén.
             </p>
           </div>
           <form className="hero-precalc" onSubmit={handleSubmit} noValidate>
@@ -152,7 +152,7 @@ function Hero() {
                 Megnézem a kalkulációt <span className="btn-arrow" />
               </button>
             </div>
-            {toast && <div className="hero-precalc-toast">✓ Az Ön adatai alapján számolunk</div>}
+            {toast && <div className="hero-precalc-toast">✓ Az adataid alapján számolunk</div>}
           </form>
         </div>
 

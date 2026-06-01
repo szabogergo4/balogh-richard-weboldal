@@ -97,9 +97,9 @@ function PreCalc() {
     var m = parseInt(monthly, 10);
     var a = parseInt(age, 10);
     if (!monthly || isNaN(m) || m < 10000 || m > 200000)
-      errs.monthly = "10 000 – 200 000 Ft közötti összeget adjon meg";
+      errs.monthly = "10 000 – 200 000 Ft közötti összeget adj meg";
     if (!age || isNaN(a) || a < 18 || a > 64)
-      errs.age = "18 – 64 év közötti kort adjon meg";
+      errs.age = "18 – 64 év közötti kort adj meg";
     return errs;
   }
 
@@ -126,7 +126,7 @@ function PreCalc() {
         <div className="precalc-inner">
           <div className="precalc-text">
             <div className="section-eyebrow">GYORS KALKULÁCIÓ</div>
-            <h2 className="precalc-title">Mennyi lenne az Ön megtakarítása?</h2>
+            <h2 className="precalc-title">Mennyi lenne a megtakarításod?</h2>
           </div>
           <form className="precalc-form" onSubmit={handleSubmit} noValidate>
             <div className={"precalc-field" + (errors.monthly ? " has-error" : "")}>
@@ -164,7 +164,7 @@ function PreCalc() {
             </button>
           </form>
           {toast && (
-            <div className="precalc-toast">✓ Az Ön adatai alapján számolunk</div>
+            <div className="precalc-toast">✓ Az adataid alapján számolunk</div>
           )}
         </div>
       </div>
@@ -190,7 +190,7 @@ function smoothScrollTo(targetY, duration) {
   requestAnimationFrame(step);
 }
 
-var MONTHLY_PRESETS = [10000, 15000, 20000, 25000, 30000, 50000, 100000, 200000];
+var MONTHLY_PRESETS = [20000, 25000, 30000, 50000, 100000, 200000];
 
 /* ── Szám-blokk helper komponensek ── */
 function SzamFt({ v }) {
@@ -297,7 +297,7 @@ function Calculator() {
             <div className="section-eyebrow reveal">Kalkulátor</div>
             <h2 className="reveal">Bónusz Életprogram<br/>Kalkulátor</h2>
             <p className="lead reveal">
-              Számolja ki, mennyit érhet megtakarítása a futamidő végén —
+              Számold ki, mennyit érhet megtakarításod a futamidő végén,
               adókedvezménnyel és hűségbónusszal együtt.
             </p>
 
@@ -1030,15 +1030,15 @@ function Team() {
 
         {/* JOBB: tartalom */}
         <div className="br2-content-col">
-          <div className="br2-eyebrow">— BEMUTATKOZÁS</div>
+          <div className="br2-eyebrow">BEMUTATKOZÁS</div>
           <h2 className="br2-headline">
             Pénzügyi tanácsadás,<br/>ahogy lennie kellene.
           </h2>
           <div className="br2-divider" />
           <div className="br2-bio">
-            <p>Balogh Richárd vagyok — biztosításközvetítő, aki hisz abban, hogy a megfelelő döntések ma meghatározzák a holnapot.</p>
+            <p>Balogh Richárd vagyok, biztosításközvetítő, aki hisz abban, hogy a megfelelő döntések ma meghatározzák a holnapot.</p>
             <p>Személyre szabott megoldásokat kínálok életbiztosítás, nyugdíjtervezés és vagyonvédelem területén. Nyitott kommunikáció, hosszú távú bizalom, valódi eredmények.</p>
-            <p>2021-ben igazgatósági szinten elnyertem Az Év Tanácsadója díjat — 1 400 tanácsadó közül a top 10-ben végeztem országosan. Ezt a kivételes elismerést 2025-ben is sikerült megszereznem: az Allianz közel 130 éves hazai történetében elsőként nyert valaki kétszer egymást követően ilyen rangos díjat.</p>
+            <p>2021-ben igazgatósági szinten elnyertem Az Év Tanácsadója díjat, 1 400 tanácsadó közül a top 10-ben végeztem országosan. Ezt a kivételes elismerést 2025-ben is sikerült megszereznem: az Allianz közel 130 éves hazai történetében elsőként nyert valaki kétszer egymást követően ilyen rangos díjat.</p>
           </div>
 
           {/* Stat sorok — EREDMÉNYEK felirattal */}
@@ -1057,7 +1057,7 @@ function Team() {
             <div className="stat-sor">
               <span className="stat-szam">2025</span>
               <span className="stat-elvalaszto" />
-              <span className="stat-leiras">Az Év Tanácsadója — <em>elsőként kétszer</em></span>
+              <span className="stat-leiras">Az Év Tanácsadója, <em>elsőként kétszer</em></span>
             </div>
             <div className="stat-sor">
               <span className="stat-szam">
@@ -1142,7 +1142,7 @@ function Team() {
               <span className="br-gomb-ikon">🏛</span>
               <span className="br-gomb-szoveg">
                 <span className="br-gomb-cim">MNB Ügynökazonosító · <span style={{fontWeight:400, opacity:0.75}}>120071700176</span></span>
-                <span className="br-gomb-alcim">Keresés: „Balogh Richárd Imre" — Magyar Nemzeti Bank nyilvántartás →</span>
+                <span className="br-gomb-alcim">Keresés: „Balogh Richárd Imre", Magyar Nemzeti Bank nyilvántartás →</span>
               </span>
             </a>
           </div>

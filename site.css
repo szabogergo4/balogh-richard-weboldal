@@ -130,10 +130,11 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 .logo-fonev {
   line-height: 1;
+  font-style: normal;
 }
 .logo-szerepkor {
   font-family: var(--sans-body);
-  font-style: normal;
+  font-style: italic;
   font-weight: 400;
   font-size: 10px;
   letter-spacing: 0.26em;

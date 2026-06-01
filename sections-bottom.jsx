@@ -87,7 +87,7 @@ function Quiz() {
           <div className="check"><Icon name="check" size={24}/></div>
           <h3>Köszönöm, {contact.name.split(" ")[0] || "kedves érdeklődő"}.</h3>
           <p>
-            A javaslatát összeállítom és <strong>24 órán belül</strong> visszajelzek
+            A javaslatodat összeállítom és <strong>24 órán belül</strong> visszajelzek
             a megadott elérhetőségen.
           </p>
           <div className="quiz-summary" style={{ marginTop: "var(--s-7)", textAlign: "left" }}>

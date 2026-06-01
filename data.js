@@ -5,7 +5,7 @@ const SITE = {
   brand: {
     name: "Balogh Richárd",
     role: "PÉNZÜGYI TANÁCSADÓ",
-    location: "Országos lefedettség — személyesen: Debrecen és Budapest",
+    location: "Országos lefedettség, személyesen: Debrecen és Budapest",
     monogram: "BR",
   },
   nav: [
@@ -18,8 +18,8 @@ const SITE = {
   hero: {
     eyebrow: "BÓNUSZ ÉLETPROGRAM",
     h1html: "Tervezd meg a következő <em>10 évedet</em>.",
-    sub: "Segítek megépíteni azt a vagyont, amire egész életében szüksége lesz — kamatadó-mentesen, hűségbónusszal, teljes átláthatósággal.",
-    primary: "Számolja ki",
+    sub: "Segítek megépíteni azt a vagyont, amire egész életedben szükséged lesz, kamatadó-mentesen, hűségbónusszal, teljes átláthatósággal.",
+    primary: "Számold ki",
     secondary: "Beszéljünk",
     // Coverr CDN — golden-hour ambient cityscape; muted/looping
     videoSrc: "assets/hero.mp4",
@@ -28,36 +28,36 @@ const SITE = {
   services: {
     eyebrow: "SZOLGÁLTATÁSOK",
     title: "Amit más termék nem ad meg.",
-    lead: "Öt ok, amiért ez a program hosszú távon valóban különbséget jelent — és amiről érdemes személyesen is beszélni.",
+    lead: "Öt ok, amiért ez a program hosszú távon valóban különbséget jelent, és amiről érdemes személyesen is beszélni.",
     items: [
       {
         n: "01",
         title: "Magasabb hozam",
-        desc: "A bankbetét hosszú távon nem dolgozik Önért. Eszközalapjaink akár évi 7–15%-os hozamot is hozhatnak — én segítek kiválasztani azt, ami az Ön kockázatvállalásához illik.",
+        desc: "A bankbetét hosszú távon nem dolgozik neked. Eszközalapjaink akár évi 7–15%-os hozamot is hozhatnak, én segítek kiválasztani azt, ami a te kockázatvállalásodhoz illik.",
         img: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
       },
       {
         n: "02",
         title: "Kamatadó-mentes megtakarítás",
-        desc: "10 év után a teljes hozam az Öné marad — sem kamatadó, sem szochó. Nem kiskapu: törvényi juttatás, amiről a legtöbb ember sajnos nem tud.",
+        desc: "10 év után a teljes hozam a tiéd marad, sem kamatadó, sem szochó. Nem kiskapu: törvényi juttatás, amiről a legtöbb ember sajnos nem tud.",
         img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
       },
       {
         n: "03",
         title: "Rugalmas feltételek",
-        desc: "Az élet nem mindig megy terv szerint. Ha szükség van rá, szüneteltethet, átrendezhet, vagy részösszeget vehet ki. A program alkalmazkodik Önhöz — nem fordítva.",
+        desc: "Az élet nem mindig megy terv szerint. Ha szükség van rá, szüneteltethetsz, átrendezhetsz, vagy részösszeget vehetsz ki. A program alkalmazkodik hozzád, nem fordítva.",
         img: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=1200&q=80",
       },
       {
         n: "04",
         title: "Hűségbónusz",
-        desc: "Aki kitart, kap érte valamit. A futamidő végén a felhalmozott tőkén felül egy külön bónuszt jóváírunk — ezt más megtakarítási formánál egyszerűen nem találja meg.",
+        desc: "Aki kitart, kap érte valamit. A futamidő végén a felhalmozott tőkén felül egy külön bónuszt írunk jóvá, ezt más megtakarítási formánál egyszerűen nem találod meg.",
         img: "https://images.unsplash.com/photo-1607863680198-23d4b2565df0?w=1200&q=80",
       },
       {
         n: "05",
         title: "Átlátható költségszerkezet",
-        desc: "Minden forint számít. Az alacsony díjszerkezet azt jelenti, hogy a hozam nagyobb részét Ön látja — nem az adminisztráció viszi el. Mindent előre mutatunk, semmi rejtett tétel.",
+        desc: "Minden forint számít. Az alacsony díjszerkezet azt jelenti, hogy a hozam nagyobb részét te látod, nem az adminisztráció viszi el. Mindent előre megmutatunk, semmi rejtett tétel.",
         img: "https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?w=1200&q=80",
       },
     ],
@@ -79,27 +79,27 @@ const SITE = {
   timeline: {
     eyebrow: "A FOLYAMAT",
     title: "Hogyan dolgozunk együtt",
-    lead: "Az első találkozótól a havi kontrollig — egy átlátható, négy lépcsős folyamat, amiben mindig Ön diktálja a tempót.",
+    lead: "Az első találkozótól a havi kontrollig, egy átlátható, négy lépcsős folyamat, amiben mindig te diktálod a tempót.",
     steps: [
       {
         n: "01",
         title: "Helyzetfelmérés",
-        text: "Egy díjmentes, kötetlen beszélgetés keretében átnézzük a jelenlegi pénzügyi helyzetét, a céljait és a kockázatviselő képességét. Bizonyos kérdésekre talán Ön is most válaszol először.",
+        text: "Egy díjmentes, kötetlen beszélgetés keretében átnézzük a jelenlegi pénzügyi helyzetedet, a céljaidat és a kockázatviselő képességedet. Bizonyos kérdésekre talán te is most válaszolsz először.",
       },
       {
         n: "02",
         title: "Személyre szabott igényfelmérés",
-        text: "Az igényei alapján kidolgozok egy javaslatot — összegekkel, eszközalapokkal, lejáratokkal. Azt mutatja meg, mit tesz a pénze az Ön munkája helyett, ha hagyja.",
+        text: "Az igényeid alapján kidolgozok egy javaslatot, összegekkel, eszközalapokkal, lejáratokkal. Azt mutatja meg, mit tesz a pénzed a te munkád helyett, ha hagyod.",
       },
       {
         n: "03",
         title: "Szerződéskötés",
-        text: "Csak akkor írunk alá, ha minden részlettel tisztában van. Egy megbízható biztosítói háttérrel, több mint 130 év tapasztalatával.",
+        text: "Csak akkor írunk alá, ha minden részlettel tisztában vagy. Egy megbízható biztosítói háttérrel, több mint 130 év tapasztalatával.",
       },
       {
         n: "04",
         title: "Évenkénti felülvizsgálat",
-        text: "A program nem statikus. Évente leülünk, értékeljük az eredményeket, és ha kell, finomhangoljuk a stratégiát az élete változásaihoz.",
+        text: "A program nem statikus. Évente leülünk, értékeljük az eredményeket, és ha kell, finomhangoljuk a stratégiát az életed változásaihoz.",
       },
     ],
   },
@@ -124,12 +124,12 @@ const SITE = {
   },
   contact: {
     eyebrow: "KAPCSOLAT",
-    title: "Beszéljünk a terveiről.",
-    lead: "Az első konzultáció díjmentes és kötelezettségmentes. Hívjon, írjon, vagy hagyjon üzenetet — 24 órán belül válaszolok személyesen.",
+    title: "Beszéljünk a terveidről.",
+    lead: "Az első konzultáció díjmentes és kötelezettségmentes. Hívj, írj, vagy hagyj üzenetet, 24 órán belül válaszolok személyesen.",
     items: [
       { icon: "phone",   lbl: "TELEFON", val: "06 30 266 4050" },
       { icon: "mail",    lbl: "E-MAIL",  val: "imre.balogh.richard@allianztanacsado.hu" },
-      { icon: "map-pin", lbl: "IRODA",   val: "Országos lefedettség — személyesen: Debrecen és Budapest" },
+      { icon: "map-pin", lbl: "IRODA",   val: "Országos lefedettség, személyesen: Debrecen és Budapest" },
     ],
   },
   footer: {
@@ -160,7 +160,7 @@ const SITE = {
   quiz: {
     eyebrow: "SZEMÉLYRE SZABOTT JAVASLAT",
     title: "Néhány kérdés a tervéről.",
-    lead: "Két perc alatt válaszol — én pedig 24 órán belül összeállítok egy személyes javaslatot a megtakarítási céljához.",
+    lead: "Két perc alatt válaszolsz, én pedig 24 órán belül összeállítok egy személyes javaslatot a megtakarítási céljaidhoz.",
     questions: [
       {
         id: "goal",
@@ -177,7 +177,7 @@ const SITE = {
       {
         id: "horizon",
         q: "Mennyi időre tervez?",
-        help: "A program minimum 10 éves — de hosszabb futamidő tipikusan jobb eredményt hoz.",
+        help: "A program minimum 10 éves, de hosszabb futamidő tipikusan jobb eredményt hoz.",
         kind: "options",
         options: [
           { v: "10",  label: "10 év",      help: "Minimum futamidő" },
@@ -214,7 +214,7 @@ const SITE = {
         id: "contact",
         kind: "contact",
         q: "Hová küldjem a személyes javaslatot?",
-        help: "Az adatait kizárólag az Ön javaslatának összeállítására használom — harmadik félnek soha nem adom át.",
+        help: "Az adataidat kizárólag a javaslatod összeállítására használom, harmadik félnek soha nem adom át.",
       },
     ],
   },
