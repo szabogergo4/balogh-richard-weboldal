@@ -2148,15 +2148,20 @@ input[type="range"].calc-slider::-moz-range-thumb {
 .contact {
   position: relative;
   overflow: hidden;
+  background: linear-gradient(to bottom,
+    var(--bg-0) 0%,
+    var(--bg-1) 14%,
+    var(--bg-1) 86%,
+    var(--bg-0) 100%
+  );
 }
 .contact::before {
   content: '';
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: radial-gradient(ellipse at 90% 30%, rgba(201,169,110,0.12), transparent 50%),
-              radial-gradient(ellipse at 10% 80%, rgba(201,169,110,0.09), transparent 45%);
-  opacity: 0.85;
+  background: radial-gradient(ellipse at 80% 20%, var(--accent-glow), transparent 60%);
+  opacity: 0.6;
 }
 
 .contact-grid {
