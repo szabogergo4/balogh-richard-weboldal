@@ -3790,11 +3790,10 @@ input[type="range"].calc-slider::-moz-range-thumb {
   border-radius: 14px;
   padding: 14px 18px;
   width: 250px;
-  font-size: 14px;
-  font-family: var(--serif-display);
+  font-size: 13px;
+  font-family: var(--sans-body);
   font-style: normal;
   font-weight: 400;
-  font-optical-sizing: auto;
   color: rgba(255,255,255,0.88);
   line-height: 1.6;
   text-align: left;
