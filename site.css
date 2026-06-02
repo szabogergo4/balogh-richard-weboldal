@@ -1460,6 +1460,9 @@ input[type="range"].calc-slider::-moz-range-thumb {
 .calc-breakdown .item.total-item { border-top: 1px solid var(--line-1); }
 .calc-breakdown .item.total-item .lbl { color: var(--fg-1); }
 .calc-breakdown .item.total-item .val { color: var(--positive); font-size: 28px; }
+.calc-breakdown .item.total-item .szam-ertek { color: var(--positive); }
+.calc-breakdown .item.total-item .val-eur { color: var(--positive); }
+.calc-breakdown .item.total-item .val-eur .szam-ertek { color: var(--positive); }
 
 /* EUR al-felirat a breakdown sorokban */
 .val-eur {
