@@ -512,7 +512,7 @@ function Calculator() {
               </div>
               {withSzja && (
                 <div className="item gain">
-                  <div className="lbl">SZJA visszatérítés</div>
+                  <div className="lbl">SZJA visszatérítés <InfoTooltip text="Ha nyugdíjcélú megtakarításod van, az éves befizetésed 20%-át (max. 130 000 Ft/év) visszakapod az adódból. Ez az összeg a megtakarításodhoz adódik és kamatozik tovább." /></div>
                   <div className="val">+<SzamFt v={result.szja} /></div>
                   {eurRate > 0 && <div className="val-eur"><SzamEur v={Math.round(result.szja / eurRate)} /></div>}
                 </div>
