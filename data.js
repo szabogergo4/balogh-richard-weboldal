@@ -192,10 +192,10 @@ const SITE = {
         help: "Tájékoztató összeg — a végleges keretet közösen alakítjuk ki.",
         kind: "options",
         options: [
-          { v: "10-25",  label: "10 – 25 ezer Ft",  help: "Kezdő keret" },
-          { v: "25-50",  label: "25 – 50 ezer Ft",  help: "Tipikus" },
-          { v: "50-100", label: "50 – 100 ezer Ft", help: "Aktív vagyonépítés" },
-          { v: "100+",   label: "100 ezer Ft felett", help: "Vagyonkezelés" },
+          { v: "25-50",   label: "25 – 50 ezer Ft",   help: "Tipikus kezdő keret" },
+          { v: "50-100",  label: "50 – 100 ezer Ft",  help: "Aktív vagyonépítés" },
+          { v: "100-150", label: "100 – 150 ezer Ft", help: "Intenzív megtakarítás" },
+          { v: "150-200", label: "150 – 200 ezer Ft", help: "Vagyonkezelés" },
         ],
       },
       {
