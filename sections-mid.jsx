@@ -566,12 +566,12 @@ function Calculator() {
               if (el) smoothScrollTo(el.getBoundingClientRect().top + window.pageYOffset - 80, 1200);
             }}>↑ Vissza a kalkulátorhoz</button>
             <div className="calc-summary-cards">
-              <div className="calc-summary-card">
+              <div className="calc-summary-card toke-card">
                 <div className="calc-summary-label">ÖSSZES TŐKE</div>
                 <div className="calc-summary-value"><SzamFt v={result.grossPaid} /></div>
                 {eurRate > 0 && <div className="calc-summary-eur"><SzamEur v={Math.round(result.grossPaid / eurRate)} /></div>}
               </div>
-              <div className="calc-summary-card">
+              <div className="calc-summary-card hozam-card">
                 <div className="calc-summary-label">HOZAM</div>
                 <div className="calc-summary-value bonus"><SzamFt v={result.hozam} /></div>
                 {eurRate > 0 && <div className="calc-summary-eur"><SzamEur v={Math.round(result.hozam / eurRate)} /></div>}
@@ -598,7 +598,7 @@ function Calculator() {
                         <span className="ev-cimke">ÉV</span>
                         <span className="ev-ertek">{row.year}.</span>
                       </div>
-                      <div className="ev-adat">
+                      <div className="ev-adat toke-szin">
                         <span className="adat-cimke">TŐKE</span>
                         <span className="adat-ft"><SzamFt v={monthly * 12} /></span>
                         {eurRate > 0 && <span className="adat-eur"><SzamEur v={Math.round(monthly * 12 / eurRate)} /></span>}
@@ -626,7 +626,7 @@ function Calculator() {
                   <div className="ev-szam">
                     <span className="ev-ertek">ÖSSZ.</span>
                   </div>
-                  <div className="ev-adat">
+                  <div className="ev-adat toke-szin">
                     <span className="adat-cimke">TŐKE</span>
                     <span className="adat-ft"><SzamFt v={result.grossPaid} /></span>
                   </div>

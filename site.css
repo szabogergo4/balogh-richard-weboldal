@@ -982,6 +982,11 @@ input[type="range"].calc-slider::-moz-range-thumb {
 .calc-breakdown .item-toke .szam-ertek { color: var(--fg-0); }
 .val-eur .szam-ertek { color: inherit; }
 .ev-adat.hozam-szin .szam-ertek { color: var(--accent); }
+.ev-adat.toke-szin .szam-ertek { color: var(--fg-0); }
+.toke-card .calc-summary-eur .szam-ertek { color: var(--fg-0); }
+.toke-card .calc-summary-eur { color: var(--fg-0); }
+.hozam-card .calc-summary-eur .szam-ertek { color: #c9a84c; }
+.hozam-card .calc-summary-eur { color: #c9a84c; }
 
 .calc-disclaimer {
   margin-top: var(--s-6);
