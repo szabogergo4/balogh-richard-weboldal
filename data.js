@@ -134,7 +134,7 @@ const SITE = {
   },
   footer: {
     tagline:
-      "Biztosítási befektetése magas szintű kezelése.",
+      "Biztosítási befektetésed magas szintű kezelése.",
     columns: [
       {
         head: "OLDALAK",
