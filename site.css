@@ -3797,6 +3797,8 @@ input[type="range"].calc-slider::-moz-range-thumb {
   color: rgba(255,255,255,0.88);
   line-height: 1.6;
   text-align: left;
+  text-transform: none;
+  letter-spacing: normal;
   z-index: 300;
   box-shadow: 0 12px 48px rgba(0,0,0,0.65), 0 0 0 0.5px rgba(255,255,255,0.12) inset;
   white-space: normal;
