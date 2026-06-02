@@ -1186,6 +1186,13 @@ function Team() {
                 <span className="br-gomb-alcim">Keresés: „Balogh Richárd Imre", Magyar Nemzeti Bank nyilvántartás →</span>
               </span>
             </a>
+            <a href="https://www.allianz.hu/hu_HU/salesrep.html?name=Balogh+Rich%C3%A1rd+Imre#/" className="br-hit-gomb br-allianz-gomb" target="_blank" rel="noopener noreferrer">
+              <span className="br-gomb-ikon">📊</span>
+              <span className="br-gomb-szoveg">
+                <span className="br-gomb-cim">Ügynökkereső</span>
+                <span className="br-gomb-alcim">Allianz hivatalos nyilvántartás →</span>
+              </span>
+            </a>
           </div>
         </div>
 

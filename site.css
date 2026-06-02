@@ -2891,11 +2891,13 @@ input[type="range"].calc-slider::-moz-range-thumb {
   transform: translateY(-2px);
 }
 .br-allianz-gomb {
-  background: rgba(255,255,255,0.02);
-  border: 1px solid rgba(255,255,255,0.08);
-  opacity: 0.45;
-  cursor: not-allowed;
-  pointer-events: none;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(201,168,76,0.28);
+}
+.br-allianz-gomb:hover {
+  background: rgba(201,168,76,0.08);
+  border-color: rgba(201,168,76,0.55);
+  transform: translateY(-2px);
 }
 .br-gomb-ikon { font-size: 22px; flex-shrink: 0; }
 .br-gomb-szoveg { display: flex; flex-direction: column; gap: 3px; }
