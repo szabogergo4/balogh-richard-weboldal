@@ -214,7 +214,7 @@ function Footer() {
               <h4>{col.head}</h4>
               <ul>
                 {col.links.map((l) => (
-                  <li key={l.label}><a href={l.href}>{l.label}</a></li>
+                  <li key={l.label}><a href={l.href} target={l.href.startsWith("http") ? "_blank" : undefined} rel={l.href.startsWith("http") ? "noopener noreferrer" : undefined}>{l.label}</a></li>
                 ))}
               </ul>
             </div>

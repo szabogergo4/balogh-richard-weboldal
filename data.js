@@ -149,9 +149,7 @@ const SITE = {
       {
         head: "KÖVESSE",
         links: [
-          { label: "LinkedIn", href: "#" },
-          { label: "Facebook", href: "#" },
-          { label: "YouTube",  href: "#" },
+          { label: "Facebook", href: "https://www.facebook.com/richard.balogh.543?locale=hu_HU" },
         ],
       },
     ],
