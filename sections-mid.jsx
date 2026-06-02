@@ -583,7 +583,7 @@ function Calculator() {
                   {eurRate > 0 && <div className="calc-summary-eur"><SzamEur v={Math.round(result.szja / eurRate)} /></div>}
                 </div>
               )}
-              <div className="calc-summary-card">
+              <div className="calc-summary-card vegso-card">
                 <div className="calc-summary-label">VÉGSŐ EGYENLEG</div>
                 <div className="calc-summary-value"><SzamFt v={result.total} /></div>
                 {eurRate > 0 && <div className="calc-summary-eur"><SzamEur v={Math.round(result.total / eurRate)} /></div>}
