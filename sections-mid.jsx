@@ -544,18 +544,22 @@ function Calculator() {
 
             <div className="calc-disclaimer">
               <div className="calc-disclaimer-header">
-                <span className="calc-disclaimer-title">Tájékoztató számítás</span>
-                <InfoTooltip text="Vázlatszerű tájékoztatás — *adminisztrációs költség a 13. hónaptól" />
+                <span className="calc-disclaimer-title">Vázlatszerű tájékoztatás</span>
               </div>
-              <div className="calc-disclaimer-pills">
-                <span className="calc-disclaimer-pill">{Math.round(calcRate * 100)}% éves bruttó hozam</span>
-                <span className="calc-disclaimer-pill">1,19% éves alapkezelési díj</span>
-                <span className="calc-disclaimer-pill">990 Ft / hó admin (3. évtől)</span>
+              <div className="calc-disclaimer-params">
+                <div className="calc-disclaimer-pills">
+                  <span className="calc-disclaimer-pill pill-accent">{Math.round(calcRate * 100)}% éves bruttó hozam</span>
+                  <span className="calc-disclaimer-pill">1,19% éves alapkezelési díj</span>
+                </div>
+                <p className="calc-disclaimer-admin">
+                  Havi adminisztrációs költség a 13. hónaptól:
+                  {" "}<strong>990 Ft</strong>-os, ill. <strong>3,3 EUR</strong>-ós program esetén.
+                </p>
               </div>
-              <p className="calc-disclaimer-note">
-                A tényleges hozam a piaci körülményektől eltérhet.<br/>
-                A hűségbónusz és SZJA visszatérítés a szerződéskötéskor érvényes jogszabályok szerint érvényesíthető.
-              </p>
+              <div className="calc-disclaimer-notes">
+                <p>A tényleges hozam a piaci körülményektől eltérhet.</p>
+                <p>A bónusz és SZJA visszatérítés a szerződéskötéskor érvényben lévő jogszabályok szerint érvényesíthető.</p>
+              </div>
             </div>
           </div>
 

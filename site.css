@@ -1040,11 +1040,11 @@ input[type="range"].calc-slider::-moz-range-thumb {
   margin-top: var(--s-6);
   border: 1px solid rgba(255,255,255,0.07);
   border-radius: 14px;
-  padding: 18px 20px;
+  padding: 20px 22px;
   background: rgba(255,255,255,0.025);
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
 }
 .calc-disclaimer-header {
   display: flex;
@@ -1055,8 +1055,14 @@ input[type="range"].calc-slider::-moz-range-thumb {
   font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: rgba(255,255,255,0.45);
+  letter-spacing: 0.12em;
+  color: rgba(255,255,255,0.5);
+}
+/* Paraméter sor: pill-ek + admin szöveg */
+.calc-disclaimer-params {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 .calc-disclaimer-pills {
   display: flex;
@@ -1068,15 +1074,35 @@ input[type="range"].calc-slider::-moz-range-thumb {
   color: rgba(255,255,255,0.55);
   background: rgba(255,255,255,0.06);
   border-radius: 20px;
-  padding: 4px 10px;
+  padding: 4px 11px;
   white-space: nowrap;
 }
-.calc-disclaimer-note {
+.calc-disclaimer-pill.pill-accent {
+  color: rgba(201,169,110,0.85);
+  background: rgba(201,169,110,0.08);
+  border: 1px solid rgba(201,169,110,0.18);
+}
+.calc-disclaimer-admin {
   font-size: 11px;
-  color: rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0.38);
   line-height: 1.6;
+}
+.calc-disclaimer-admin strong {
+  color: rgba(255,255,255,0.55);
+  font-weight: 500;
+}
+/* Jogi megjegyzések */
+.calc-disclaimer-notes {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
   border-top: 1px solid rgba(255,255,255,0.06);
-  padding-top: 10px;
+  padding-top: 12px;
+}
+.calc-disclaimer-notes p {
+  font-size: 11px;
+  color: rgba(255,255,255,0.28);
+  line-height: 1.6;
 }
 
 /* ── Tabs ── */
