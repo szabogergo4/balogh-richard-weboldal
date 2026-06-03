@@ -91,7 +91,9 @@ function RefreshIcon() {
 function InfoTooltip({ text }) {
   var [open, setOpen] = React.useState(false);
   var wrapRef = React.useRef(null);
+  var boxRef  = React.useRef(null);
 
+  // Külső kattintás / érintés → bezárás
   React.useEffect(function() {
     if (!open) return;
     function handle(e) {
@@ -105,6 +107,38 @@ function InfoTooltip({ text }) {
     };
   }, [open]);
 
+  // Viewport-alapú igazítás: megakadályozza, hogy a tooltip kilógjon a képernyőről
+  React.useEffect(function() {
+    if (!open || !boxRef.current) return;
+    var el  = boxRef.current;
+    var box = el.getBoundingClientRect();
+    var vw  = window.innerWidth;
+    var PAD = 10; // minimális margó a képernyő szélétől
+
+    // Visszaállítjuk az inline stílust, hogy a CSS-értékeket megkapjuk
+    el.style.left      = '';
+    el.style.right     = '';
+    el.style.transform = '';
+
+    // Újra mérjük a CSS által beállított pozíció után
+    box = el.getBoundingClientRect();
+
+    if (box.left < PAD) {
+      // Kilóg a bal oldalon → toljuk jobbra
+      el.style.left      = '0';
+      el.style.right     = 'auto';
+      el.style.transform = 'none';
+    } else if (box.right > vw - PAD) {
+      // Kilóg a jobb oldalon → toljuk balra
+      var excess     = box.right - (vw - PAD);
+      var parentLeft = el.offsetParent ? el.offsetParent.getBoundingClientRect().left : 0;
+      var newLeft    = box.left - parentLeft - excess;
+      el.style.left      = newLeft + 'px';
+      el.style.right     = 'auto';
+      el.style.transform = 'none';
+    }
+  }, [open]);
+
   return (
     <span className="info-tip" ref={wrapRef}>
       <button
@@ -114,7 +148,7 @@ function InfoTooltip({ text }) {
         aria-label="Információ"
       >i</button>
       {open && (
-        <span className="info-tip-box" role="tooltip">{text}</span>
+        <span className="info-tip-box" ref={boxRef} role="tooltip">{text}</span>
       )}
     </span>
   );
