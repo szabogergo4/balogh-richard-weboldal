@@ -1094,7 +1094,7 @@ function Team() {
 
         {/* BAL: fotó — full bleed + overlays */}
         <div className="br2-img-col" ref={imgColRef}>
-          <img src="assets/balogh_richard.jpg" alt="Balogh Richárd" className="br2-photo" />
+          <img src="assets/balogh_richard.jpg" alt="Balogh Richárd Imre" className="br2-photo" />
           <div className="br2-kep-felso-fade" />
           <div className="br2-kep-jobb-fade" />
           <div className="br2-kep-also-fade" />
@@ -1108,7 +1108,7 @@ function Team() {
           </h2>
           <div className="br2-divider" />
           <div className="br2-bio">
-            <p>Balogh Richárd vagyok, biztosításközvetítő, aki hisz abban, hogy a megfelelő döntések ma meghatározzák a holnapot.</p>
+            <p>Balogh Richárd Imre vagyok, biztosításközvetítő, aki hisz abban, hogy a megfelelő döntések ma meghatározzák a holnapot.</p>
             <p>Személyre szabott megoldásokat kínálok életbiztosítás, nyugdíjtervezés és vagyonvédelem területén. Nyitott kommunikáció, hosszú távú bizalom, valódi eredmények.</p>
             <p>2021-ben igazgatósági szinten elnyertem Az Év Tanácsadója díjat, 1 400 tanácsadó közül a top 10-ben végeztem országosan. Ezt a kivételes elismerést 2025-ben is sikerült megszereznem: az Allianz közel 130 éves hazai történetében elsőként nyert valaki kétszer egymást követően ilyen rangos díjat.</p>
           </div>
@@ -1214,7 +1214,7 @@ function Team() {
               <span className="br-gomb-ikon">🏛</span>
               <span className="br-gomb-szoveg">
                 <span className="br-gomb-cim">MNB Ügynökazonosító · <span style={{fontWeight:400, opacity:0.75}}>120071700176</span></span>
-                <span className="br-gomb-alcim">Keresés: „Balogh Richárd Imre", Magyar Nemzeti Bank nyilvántartás →</span>
+                <span className="br-gomb-alcim">Keresés: „Balogh Richárd Imre Imre", Magyar Nemzeti Bank nyilvántartás →</span>
               </span>
             </a>
             <a href="https://www.allianz.hu/hu_HU/salesrep.html?name=Balogh+Rich%C3%A1rd+Imre#/" className="br-hit-gomb br-allianz-gomb" target="_blank" rel="noopener noreferrer">

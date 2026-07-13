@@ -1,9 +1,9 @@
 /* global React */
-// Balogh Richárd — site content (Hungarian copy)
+// Balogh Richárd Imre — site content (Hungarian copy)
 
 const SITE = {
   brand: {
-    name: "Balogh Richárd",
+    name: "Balogh Richárd Imre",
     role: "PÉNZÜGYI TANÁCSADÓ",
     location: "Országos lefedettség, személyesen: Debrecen és Budapest",
     monogram: "BR",
@@ -110,7 +110,7 @@ const SITE = {
     members: [
       {
         role: "PÉNZÜGYI TANÁCSADÓ",
-        name: "Balogh Richárd",
+        name: "Balogh Richárd Imre",
         bio: "[hiányzó szöveg bemutatkozáshoz]",
         img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=1200&q=80",
         creds: [
@@ -153,7 +153,7 @@ const SITE = {
         ],
       },
     ],
-    base: "© 2026 Balogh Richárd Pénzügyi Tanácsadó. Minden jog fenntartva.",
+    base: "© 2026 Balogh Richárd Imre Pénzügyi Tanácsadó. Minden jog fenntartva.",
   },
   quiz: {
     eyebrow: "SZEMÉLYRE SZABOTT JAVASLAT",
