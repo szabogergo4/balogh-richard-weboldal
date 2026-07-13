@@ -583,6 +583,7 @@ function Calculator() {
               <div className="calc-disclaimer-notes">
                 <p>A tényleges hozam a piaci körülményektől eltérhet.</p>
                 <p>A bónusz és SZJA visszatérítés a szerződéskötéskor érvényben lévő jogszabályok szerint érvényesíthető.</p>
+                <p>Az itt látott kalkuláció tájékoztató jellegű, minden benne látott adat feltételezésen alapszik.</p>
               </div>
             </div>
           </div>
